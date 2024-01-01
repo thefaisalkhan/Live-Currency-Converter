@@ -1,0 +1,30 @@
+
+
+.custom-navbar {
+  background: #303330;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-navbar .navbar-brand {
+  font-style: italic;
+  color: #006fff;
+  font-size: x-large;
+  text-align: center;
+}
+
+.blinking-dot {
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  animation: blink 1s infinite;
+  margin-right: 8.2px;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
